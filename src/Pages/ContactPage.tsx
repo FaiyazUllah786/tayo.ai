@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import AddContact from "../components/Contacts/AddContact";
 import AllContact from "../components/Contacts/AllContact";
 import "../index.css";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const ContactPage = () => {
   const [showAddContact, setShowAddContact] = useState(true);

@@ -5,10 +5,8 @@ import {
   updateContact,
 } from "../../Store/features/contactSlice";
 import UpdateContactModal from "./UpdateContactModal";
-import { FaRegEdit } from "react-icons/fa";
 import { MdDeleteOutline } from "react-icons/md";
 import DetailContactModal from "./DetailContactModal";
-import { IoIosMore } from "react-icons/io";
 import { FaCircleInfo } from "react-icons/fa6";
 import { MdEdit } from "react-icons/md";
 
