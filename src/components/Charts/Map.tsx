@@ -38,7 +38,7 @@ function Map() {
 
   return (
     <>
-      <div className=" flex justify-center items-center ">
+      <div className=" flex justify-center items-center flex-col ">
         <MapContainer
           className="h-96 w-2/3 mt-10"
           center={[data[0].countryInfo.lat, data[0].countryInfo.long]}
