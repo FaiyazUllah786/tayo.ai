@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+<br/>
+<div align="center">
+<a href="https://github.com/ShaanCoding/ReadME-Generator">
+<img src="https://img.icons8.com/bubbles/50/react.png" alt="Logo" width="80" height="80">
+</a>
+<h3 align="center">Contact Management App with Charts and Maps </h3>
+<p align="center">
+a contact management app with integrated Charts and Maps using modern web technologies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
+<br/>
+<a href="https://tayoai.netlify.app/">View Demo .</a>
 
-## Available Scripts
+</p>
+</div>
 
-In the project directory, you can run:
+## About The Project
 
-### `npm start`
+![Product Screenshot](https://i.ibb.co/FwNqKQr/tayo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project aims to create a contact management app with integrated Charts and Maps using modern web technologies. The app will provide functionalities for managing contacts, visualizing COVID-19 data through charts, and displaying country-specific information on a map.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Built With
 
-### `npm test`
+Frameworks/libraries used int this project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Redux](https://redux.js.org/)
+- [React-Query](https://tanstack.com/query/v3)
+- [React Router](https://reactrouter.com/en/main)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Below is an example of how you can installing and setting up this app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/FaiyazUllah786/tayo.ai.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start Server
+   ```js
+   npm run start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Contact Management:
 
-## Learn More
+- Add new contacts.
+- View contact details.
+- Edit and delete contacts.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Charts and Maps Dashboard:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Line graph showing COVID-19 cases fluctuations worldwide.
+- React Leaflet map with markers indicating country-wise COVID-19 statistics such as total active cases, recovered cases, and deaths.
+
+## Contact
+
+Your Name - Faiyaz Ullah
+
+- faiyazullah@gmail.com
+
+Project Link: https://tayoai.netlify.app/
