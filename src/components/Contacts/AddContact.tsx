@@ -38,7 +38,7 @@ const AddContact = () => {
   return (
     <div className="border border-gray-300 shadow-lg shadow-orange-700  p-4 rounded-md m-4 bg-glass text-white font-serif text-start">
       <form onSubmit={handleSubmit}>
-        <div className="mb-4">
+        <div className="mb-4 ">
           <label htmlFor="fname" className="block mb-1 ">
             First Name
           </label>
@@ -47,7 +47,7 @@ const AddContact = () => {
             required
             name="fname"
             placeholder="First Name"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 bg-black"
             value={firstname}
             onChange={handleFNameChange}
           />
@@ -61,7 +61,7 @@ const AddContact = () => {
             type="text"
             name="lname"
             placeholder="Last Name"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 bg-black"
             value={lastname}
             onChange={handleLNameChange}
           />
@@ -74,7 +74,7 @@ const AddContact = () => {
             required
             name="status"
             id=""
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 bg-black"
             value={status ? "Active" : "Not Active"}
             onChange={handleStatusChange}
           >
